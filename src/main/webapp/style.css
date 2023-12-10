@@ -1,0 +1,45 @@
+div#fullview{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 700px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgb(199, 207, 214);
+}
+
+.block{
+    
+}
+
+#bar{
+    width: 20%;
+    border-radius: 30px;
+    background-color: rgb(179, 195, 195);
+    flex-direction: column;
+
+}
+
+#view{
+    height: 98%;
+    padding: 50px;
+    border-radius: 30px;
+    width: 79%;
+    background-color: rgb(196, 196, 244);
+    margin: auto;
+    align-items: center;
+}
+.Row{
+    height: 25%;
+    align-items: center;
+    text-align: center;
+}
+.block1{
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    margin: 10px;
+    background-color: aqua;
+    border-radius: 10px;
+    
+}
