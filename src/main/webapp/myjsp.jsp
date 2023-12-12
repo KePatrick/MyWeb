@@ -1,4 +1,7 @@
-
+<%@ page language="java" contentType="text/html; charset=BIG5"
+    pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>   
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script type="text/javascript" src="script.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
@@ -38,22 +41,9 @@
 
     </div>
     <script>
-    	function getMethod(type){
-			document.getElementById("view").innerHTML="";
-            var xhr = new XMLHttpRequest();
-            xhr.open('GET', `MyServlet?type=${type}`, true);
-			//用get方法連接servlet,type決定樣式
-            xhr.onreadystatechange = function () {
-                if (xhr.readyState == 4 && xhr.status == 200) {
-                    // 在這裡處理成功的回應
-                    var resultElement = document.getElementById("view");
-                    resultElement.innerHTML = xhr.responseText;//將接收到的html插入view中
-                }
-            };
-
-            xhr.send();
-        }
-		
+    	
+    
+	
     </script>
 
 
