@@ -1,5 +1,5 @@
 function getMethod(type){
-    	let gettype = 'MyServlet?type='+type;
+    	let gettype = 'MyServlet2?type='+type;
     	
 		document.getElementById("view").innerHTML="";
         var xhr = new XMLHttpRequest();
