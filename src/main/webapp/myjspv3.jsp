@@ -56,7 +56,7 @@
             	<c:when test="${param.type == '1'}">${block1 }</c:when>
             	<c:when test="${param.type == '2'}">${block2 }</c:when>
             	<c:when test="${param.type == '3'}">${block3 }</c:when>
-            	<c:otherwise>${block0 }</c:otherwise>
+            	<c:otherwise></c:otherwise>
             
             </c:choose>
         </div>
